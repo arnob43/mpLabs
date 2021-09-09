@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello dogs</title>
+
+    <script src="fetch_data.js" defer></script>
+
+    <style>
+      span {
+        display: block;
+      }
+
+      img {
+        height: 500px;
+        width: 700px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>You like dogs too?</h1>
+
+    <button onclick="fetchRandomDog()">See more Cuteness</button>
+    <img src="" alt="random dog picture" />
+
+    <p id="dog-info"></p>
+
+    <button id="fetch-button">Fetch Data</button>
+  </body>
+</html>
